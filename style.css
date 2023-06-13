@@ -91,10 +91,6 @@
     border-radius: 5px;
 }
 
-.prensentation{
-    margin-top: 0;
-    padding-bottom: 15px;
-}
 
 .titolo{
     margin-top: 50px;
@@ -256,6 +252,7 @@
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         gap: 2.5rem;
+        margin-top: 20px;
     }
     
     .skill{
