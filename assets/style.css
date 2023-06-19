@@ -9,10 +9,12 @@
     scroll-behavior: smooth;
     font-family: 'Mulish', sans-serif;
 }
-
+.navbar{
+    background-color: #fefefe;
+}
 .nav-item a:hover,
 .nav-item a:active{
-    color: orange;
+    color: #ffa107;
 }
 
 .home{
@@ -49,7 +51,7 @@
 }
 
 .hover-title{
-    color: orange;
+    color: #ffa107;
     position: absolute;
     transform: translate3d(0, 100%, 0);
 }
@@ -89,6 +91,9 @@
     height: 600px;
     width: 100%;
     border-radius: 5px;
+}
+svg{
+    color: #ffa107;
 }
 
 
