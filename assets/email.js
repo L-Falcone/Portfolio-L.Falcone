@@ -1,3 +1,8 @@
+(function() {
+  emailjs.init('oK85VoKDTZDAS1Xa3');
+})();
+
+
 function sendMail() {
     var params = {
       email: document.getElementById("email").value,
@@ -6,8 +11,10 @@ function sendMail() {
   
     const serviceID = "service_bgtedk6";
     const templateID = "template_lssn2hd";
-  
-      emailjs.send(serviceID, templateID, params)
+
+    
+  if(params.email && params.testo){
+    emailjs.send(serviceID, templateID, params)
       .then(res=>{
           document.getElementById("email").value = "";
           document.getElementById("testo").value = "";
@@ -15,6 +22,7 @@ function sendMail() {
           alert("Il tuo messaggio è stato inviato!!")
   
       })
-      .catch(err=>console.log(err));
-  
+    } else {
+    alert("Inserire i campi obbligatori!!")
+    }
   }
