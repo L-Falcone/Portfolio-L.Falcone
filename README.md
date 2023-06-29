@@ -52,4 +52,6 @@ con all'interno una breve descrizione del progetto e dei link che portano al pro
 
 ## Upgrade
 
-Con l'Upgrade 1.5 ho aggiunto vari "Meta Tag" ed eliminato lo stile in linea. Organizzato le directory.
+Upgrade 1.5: aggiunto vari "Meta Tag" ed eliminato lo stile in linea. Organizzato le directory.
+
+Upgrade 1.6: migliorato il codice in email.js per ottimizzare il form
